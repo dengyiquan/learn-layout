@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>通栏</title>
+	<style type=text/css>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.top,
+		.banner,
+		.main,
+		.footer {
+			
+			background-color: #ccc;
+			
+				
+		}
+		.top {
+			
+			height: 80px;
+		}
+		.inner {
+			width: 900px;
+			height: 80px;
+			margin: auto;
+			background-color: pink;
+		}
+		.banner {
+			width: 900px;
+			height: 120px;
+			margin: 5px auto;
+			display: flex;
+			justify-content: space-between;
+			background-color: transparent;
+		}
+		.item_banner {
+			height: 120px;
+			width: 176px;
+			background-color: lightgreen;
+		}
+		.main {
+			width: 900px;
+			height: 500px;
+			margin: auto;
+			display: flex;
+			justify-content: space-between;
+			background-color: white;
+
+			
+		}
+		.item_main {
+			height: 500px;
+			width: 221px;
+			background-color: lightblue;
+			/*margin-left: 25px;*/
+			/*padding-left: 5px;*/
+		}
+		.footer {
+			
+			height: 120px;
+			margin: 5px auto 0;	
+		}
+		.footer .inner {
+			margin: auto;
+			background-color: pink;
+			height: 120px;
+			width: 900px;
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<div class="inner">top</div>
+	</div>
+	<div class="banner">
+		<div class="item_banner">1</div>
+		<div class="item_banner">2</div>
+		<div class="item_banner">3</div>
+		<div class="item_banner">4</div>
+		<div class="item_banner">5</div>
+	</div>
+	<div class="main">
+		<div class="item_main">1</div>
+		<div class="item_main">2</div>
+		<div class="item_main">3</div>
+		<div class="item_main">4</div>
+	</div>
+	<div class="footer">
+		<div class="inner">footer</div>
+	</div>
+	
+</body>
+</html>
